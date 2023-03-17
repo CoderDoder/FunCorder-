@@ -29,13 +29,15 @@
     width: 250px;
     background-color: rgb(94, 204, 94);
     border-radius: 20px;
-    border:10px solid black;
+    border:7px solid rgb(188, 245, 43);
     font-size: 25px;
     font-family: cursive;
     font-weight: bolder;
     color: white;
 }
 #btn1:hover{
+    height: 90px;
+    width: 260px;
     background-color: #2abcff;
     box-shadow: #262626 0px -1px 20px 6px;
     border: 3px solid black;
@@ -48,6 +50,25 @@ canvas{
     animation-duration:4s;
     animation-iteration-count: infinite;
     margin-top:6% ;
+}
+
+#img_moustache, #img_lips, #img_glass, #img_mask{
+    height: 70px;
+    width: 70px;
+}
+
+button{
+    border-radius: 60px;
+    margin-left: 3px;
+}
+
+#img_moustache:hover , #img_lips:hover , #img_glass:hover , #img_mask:hover {
+height: 80px;
+width: 80px;
+}
+
+button:hover{
+    border: 6px solid black;
 }
 
 @keyframes colorchanger{
